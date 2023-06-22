@@ -34,7 +34,7 @@ const dataArray = [
 const Slider = () => {
    const [currentIndex, setCurrentIndex] = useState(0);
    const [isAutoSliding, setIsAutoSliding] = useState(true);
-
+ 
    useEffect(() => {
       let intervalId = null;
 
